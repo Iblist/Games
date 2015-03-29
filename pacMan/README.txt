@@ -1,7 +1,3 @@
-Student Name: Tyler Hoskins  Student Number: 0864693
-
-CIS*2500                      PACMAN
-
 ********
 Compiling the Program
 ********
