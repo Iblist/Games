@@ -1,0 +1,11 @@
+1: Get user Input, and translate resulting character into an ascii value.
+
+2: Use ascii value to choose yx coordinate on screen.  Essentially, we will use a sin function for now multiplied by 10.  The maximum value possible is 1,
+   Therfore The maximum value will be 10 and a minimum of 0.  The screen size must be at least 127 x units wide.  Add 20 to the new value to center the 
+   Colours better.
+
+3: Move cursor to selected part of the screen.  If the selected area's colour is black, it should be made white, if the area is white, it should be made black.
+   The spaces above, below, and beside this space should also have their colours swapped.  The trick here is to draw a character to determine color.  Foreground and
+   Background will be the same, "W" will mean white and "B" will mean black.
+
+4: Game should continue playing until ESC is hit. (ESC is 27 in the ascii table.)
